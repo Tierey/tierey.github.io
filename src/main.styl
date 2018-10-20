@@ -1,0 +1,79 @@
+*
+*::before
+*::after
+    box-sizing border-box
+    padding 0
+    margin 0
+html
+    background-color black
+    color coral
+    padding 10px
+    padding-right 40px
+
+
+.site
+    padding 10px
+    background-color #272727
+    border-radius 5px
+    padding-bottom 60px
+.logo
+    position relative
+    background-color black
+    color red
+    font-size 25px
+    $sz = 70px
+    width $sz
+    height $sz
+    line-height $sz
+    text-align center
+    font-family IMPACT
+    letter-spacing 4px
+    display inline-block
+    &:after
+        content:"0.0.1"
+        display block
+        position absolute
+        bottom 8px
+        right 3px
+        color gray
+        font-size 10px
+        font-family arial
+        line-height 0
+        letter-spacing normal
+
+.b-menu
+    border-left 2px solid red
+    margin-top 25px
+    padding-left 15px
+    .e-list
+        list-style-type none
+    .e-item
+        margin-bottom 4px
+    .e-link
+        //
+        color inherit
+        display inline-block
+        background-color black
+        padding 10px 15px
+        margin-bottom 5px
+        border-radius 8px
+        font-family helvetica
+        text-decoration none
+        letter-spacing 2px
+        font-weight 600
+     
+        &:first-letter
+            transition  all 1s ease
+            color green
+            font-size 25px
+        i
+            transition all 1s ease
+            font-size 20px
+            margin-left 10px
+            color limegreen
+            animation-duration: 8s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            &.cog
+                margin-left 5px
+                color coral

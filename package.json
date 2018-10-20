@@ -1,0 +1,20 @@
+{
+  "name": "tierey.github.io",
+  "version": "0.0.1",
+  "description": "portfolio startpage",
+  "private": false,
+  "main": "index.html",
+  "author": "Tier-X",
+  "license": "ISC",
+  "scripts": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "gulpjs/gulp#v4.0.0-alpha.3",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-stylus": "^2.7.0",
+    "through2": "^2.0.3"
+  },
+  "dependencies": {}
+}
